@@ -1,0 +1,32 @@
+{
+  "selected_models": [
+    "existing_tfidf_ridge_baseline"
+  ],
+  "weights": [
+    1.0
+  ],
+  "group_scale": 2.3000000000000003,
+  "thresholds": [
+    1.5,
+    2.5,
+    3.75,
+    4.0
+  ],
+  "raw_dev_metrics": {
+    "spearman_continuous": 0.19610736181095348,
+    "spearman_integer": 0.1741170106523176,
+    "accuracy_within_stdev": 0.6343537414965986,
+    "mae": 0.9999684691429138
+  },
+  "calibrated_dev_metrics": {
+    "spearman_continuous": 0.22547190725482258,
+    "spearman_integer": 0.28002982997313036,
+    "accuracy_within_stdev": 0.6632653061224489,
+    "mae": 1.0083526372909546
+  },
+  "train_samples": 2280,
+  "dev_samples": 588,
+  "all_candidate_names": [
+    "existing_tfidf_ridge_baseline"
+  ]
+}

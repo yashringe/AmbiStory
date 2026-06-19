@@ -1,0 +1,5 @@
+# Optional only, not required for predict.py or the bundled model.joblib.
+# Use this if you want to train a local HuggingFace cross-encoder.
+torch
+transformers
+accelerate
